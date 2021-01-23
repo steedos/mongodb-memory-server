@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-memory-server-core",
+  "name": "@steedos/mongodb-memory-server-core",
   "version": "7.0.0-beta.14",
   "description": "MongoDB Server for testing (core package, without autodownload). The server will allow you to connect your favourite ODM or client library to the MongoDB Server and run parallel integration tests isolated from each other.",
   "main": "lib/index",

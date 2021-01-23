@@ -482,7 +482,7 @@ export class MongoMemoryReplSet extends EventEmitter {
 
     let con: MongoClient = await MongoClient.connect(uris[0], {
       useNewUrlParser: true,
-      useUnifiedTopology: true,
+      // useUnifiedTopology: true,
     });
 
     try {
